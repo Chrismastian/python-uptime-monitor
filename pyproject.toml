@@ -1,0 +1,8 @@
+[project]
+name = "python-uptime-monitor"
+version = "0.1.0"
+description = "An uptime monitor: config-driven targets, scheduled checks, and alerts that fire only on state transitions"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
